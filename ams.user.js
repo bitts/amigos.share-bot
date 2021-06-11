@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Amigos-Share Tanks
 // @namespace       http://tampermonkey.net/
-// @license      	MIT
+// @license         MIT
 // @version         1.0.0
 // @description     Percorrendo torrents baixados e realizando a agradecimento
 // @author          Marcelo_Valvassori_Bittencourt
@@ -12,6 +12,7 @@
 // @grant           none
 // @contributionURL https://github.com/bitts/ams-bot.js
 
+// ==/UserScript==
 
 var myId = prompt("Informe o seu ID de usuario: ");
 var page = 0;
