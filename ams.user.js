@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Amigos-Share Tanks
 // @namespace       http://tampermonkey.net/
-// @license         MIT
+// @license      	MIT
 // @version         1.0.0
 // @description     Percorrendo torrents baixados e realizando a agradecimento
 // @author          Marcelo_Valvassori_Bittencourt
@@ -10,7 +10,9 @@
 // @homepageURL     https://openuserjs.org/users/marcelo.valvassori
 // @match           https://cliente.amigos-share.club/account-details.php?id=*&action=baixados
 // @grant           none
-// @contributionURL https://github.com/bitts/ams-bot.js
+// @supportURL      https://github.com/bitts/
+// @contributionURL https://github.com/bitts/amigos.share-bot/ams-bot.js
+// @updateURL 	    https://github.com/bitts/amigos.share-bot/blob/main/ams.user.js
 
 // ==/UserScript==
 
