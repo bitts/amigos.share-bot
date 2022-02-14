@@ -47,7 +47,7 @@ if(page){
 				console.log('Varrendo arquivos baixados, procurando arquivos nao avaliados.');
 				
 				$(data).find('ul.list-group li').map(function(){ 
-          var file = $(this).find('div.list-group-item-content').find('.tooltips').find('a').text();
+          			var file = $(this).find('div.list-group-item-content').find('.tooltips').find('a').text();
   				var id = $(this).find('a:last').attr('href').replace('download.php?id=','');
 					if(id){
 						console.log('Avaliando o arquivo de identificador: ', id);
@@ -57,24 +57,22 @@ if(page){
 								data : {'id': id },
 								type: "get",
 								success: function(dataR){
-                  if(dataR){
-                    var retorno = $(dataR).find('body').find('div.container-fluid > div.row').find('div:last').find('div.card-body').text();
-                    console.log('Arquivo avaliado | ID: '+ id +' | file: '+ file +'| Retorno: '+ retorno);
-                  }
+								  if(dataR){
+								    var retorno = $(dataR).find('body').find('div.container-fluid > div.row').find('div:last').find('div.card-body').text();
+								    console.log('Arquivo avaliado | ID: '+ id +' | file: '+ file +'| Retorno: '+ retorno);
+								  }
 								},
-                complete : function(data){
-                  //console.log('complete', data.responseText);
-                  if(data.responseText){
-                    var resposta = $(data.responseText).find('body').find('div.container-fluid > div.row').find('div:last').find('div.card-body').text();
-                    console.log('Arquivo avaliado | ID: '+ id +' | file: '+ file +'| Retorno: '+ resposta);
-                  }
-                  
+								complete : function(data){
+								  //console.log('complete', data.responseText);
+								  if(data.responseText){
+								    var resposta = $(data.responseText).find('body').find('div.container-fluid > div.row').find('div:last').find('div.card-body').text();
+								    console.log('Arquivo avaliado | ID: '+ id +' | file: '+ file +'| Retorno: '+ resposta);
+								  }
 								},
 								error: function(err){
 									console.log(err)
 								}
 							});
-							
 						}else console.log('Nao foi possivel identificar ID do arquivo.');
 					}
           
