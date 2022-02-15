@@ -1,7 +1,7 @@
 # amigos.share-bot
 
 ## ams.user.js 
-Bot para sistema de torrent Amigos-Share para avaliação em massa de itens já baixados.
+Bot para comunidade de torrent [Amigos-Share](https://cliente.amigos-share.club/) para avaliação em massa de itens já baixados.
 
   https://openuserjs.org/scripts/marcelo.valvassori/Amigos-Share_Tanks
 
