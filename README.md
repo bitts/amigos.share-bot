@@ -1,5 +1,7 @@
 # amigos.share-bot
 
+Script  [Tampermonkey](https://www.tampermonkey.net/)
+
 ## ams.user.js 
 Bot para comunidade de torrent [Amigos-Share](https://cliente.amigos-share.club/) para avaliação em massa de itens já baixados.
 
