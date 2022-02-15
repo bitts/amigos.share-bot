@@ -11,4 +11,5 @@ Bot para comunidade de torrent [Amigos-Share](https://cliente.amigos-share.club/
 Para buscar realizadas e exibidas em mais de uma página, o script carrega conteúdo da paǵina seguite da busca realizada, logo após o último item listado. Carregamento automática (scroll infinito).
 
 
-
+## Uso
+https://www.tampermonkey.net/?ext=dhdg
